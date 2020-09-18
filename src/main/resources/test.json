@@ -1,0 +1,135 @@
+[
+  {
+    "name": "A",
+    "version": "1.0.0"
+  },
+  {
+    "name": "B",
+    "version": "1.0.0",
+    "requires": [
+      {
+        "name": "B_Required",
+        "version": "1.0.0"
+      }
+    ]
+  },
+  {
+    "name": "B_Required",
+    "version": "1.0.0"
+  },
+  {
+    "name": "C",
+    "version": "1.0.0",
+    "requires": [
+      {
+        "name": "C_required",
+        "version": "1.0.0"
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "C_required",
+        "version": "1.0.0"
+      }
+    ]
+  },
+  {
+    "name": "C_required",
+    "version": "1.0.0"
+  },
+  {
+    "name": "D",
+    "dev": true,
+    "version": "1.0.0",
+    "requires": [
+      {
+        "name": "D_required",
+        "version": "1.0.0"
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "D_required",
+        "version": "1.0.0",
+        "dev": true
+      }
+    ]
+  },
+  {
+    "name": "D_required",
+    "version": "1.0.0",
+    "dev": true
+  },
+  {
+    "name": "E",
+    "dev": true,
+    "version": "1.0.0",
+    "requires": [
+      {
+        "name": "E_required",
+        "version": "1.0.0"
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "E_required",
+        "version": "1.0.0",
+        "dev": true
+      }
+    ]
+  },
+  {
+    "name": "E_required",
+    "version": "1.0.0"
+  },
+  {
+    "name": "F",
+    "version": "1.0.0",
+    "requires": [
+      {
+        "name": "F_required",
+        "version": "1.0.0"
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "F_required",
+        "version": "1.0.0"
+      }
+    ]
+  },
+  {
+    "name": "F_required",
+    "version": "2.0.0"
+  },
+  {
+    "name": "G_required",
+    "version": "1.0.0"
+  },
+  {
+    "name": "H_required",
+    "version": "1.0.0"
+  },
+  {
+    "name": "I_required",
+    "version": "1.0.0"
+  },
+  {
+    "name": "J_required",
+    "version": "1.0.0",
+    "requires": [
+      {
+        "name": "G_required",
+        "version": "1.0.0"
+      },
+      {
+        "name": "H_required",
+        "version": "1.0.0"
+      },
+      {
+        "name": "I_required",
+        "version": "1.0.0"
+      }
+    ]
+  }
+]
